@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <title>boton</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        .container {
+            background-color: #fff;
+            position: relative;
+            width: 80px;
+            height: 40px;
+            box-shadow: inset 4px 4px 6px #cecece,
+            inset -4px -4px 6px #fff;
+            margin: 0px auto;
+            margin-top: 350px;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+        @media (prefers-color-scheme: dark) {
+            html{
+                background: #333;
+                color: #fff;
+            }
+        }
+        /* Estilos para el tema claro */
+        .tema-claro {
+        background: #fff !important;
+        color: #333 !important;
+        }
+
+        /* Estilos para el tema oscuro */
+        .tema-oscuro {
+        background: #333 !important;
+        color: #fff !important;
+        }
+        .toggle {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 40px;
+            height: 40px;
+            transform: scale(.7);
+            background-color: linear-gradient(145deg, #d8d8d8, #FFFFFF);
+            border-radius: 25px;
+            box-shadow: 3px 3px 8px #c4c4c4,
+            -3px -3px 8px #fff;
+
+        }
+</style>
+</head>
+<body>
+    <div id="container">
+        <div class="toggle">
+            <button></button>
+        </div>
+    </div>
+
+
+
+    <script>
+        document.getElementById("cambiar-tema-btn").addEventListener("click", function() {
+            console.log("boton pulsado");
+            // Obtener el elemento HTML
+            var htmlElement = document.querySelector("html");
+            
+            // Alternar entre las clases de tema claro y oscuro
+            htmlElement.classList.toggle("tema-claro");
+            htmlElement.classList.toggle("tema-oscuro");
+        });
+    </script>
+</body>
+</html>
