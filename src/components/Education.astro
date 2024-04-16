@@ -1,37 +1,24 @@
 ---
-import Section from "./Section.astro"
-
-import { education } from "@cv"
+import Section from "./Section.astro";
 ---
 
 <Section title="Educación">
   <ul>
-    {
-      education.map(({ institution, startDate, endDate, area }) => {
-        const startYear = new Date(startDate).getFullYear()
-        const endYear =
-          endDate != null ? new Date(endDate).getFullYear() : "Actual"
-        const years = `${startYear} - ${endYear}`
+    <li>
+      <article>
+        <header>
+          <div>
+            <h3>Universidad Técnica del Norte</h3>
+          </div>
 
-        return (
-          <li>
-            <article>
-              <header>
-                <div>
-                  <h3>{institution}</h3>
-                </div>
+          <time>2021 - 2024</time>
+        </header>
 
-                <time>{years}</time>
-              </header>
-
-              <footer>
-                <p>{area}</p>
-              </footer>
-            </article>
-          </li>
-        )
-      })
-    }
+        <footer>
+          <p>Ingeniero en Tecnologías de la Información</p>
+        </footer>
+      </article>
+    </li>
   </ul>
 </Section>
 
@@ -43,8 +30,7 @@ import { education } from "@cv"
   }
 
   article h3 {
-    font-weight: 500;
-    color: #111;
+    font-weight: 400;
   }
 
   header {
