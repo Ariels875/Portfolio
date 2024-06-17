@@ -95,19 +95,10 @@
         "description": "Proyecto de un sistema de matrículas hecho con PHP puro.",
         "highlights": [
           "PHP",
-          "Primer proyecto"
+          "Comoposer"
         ],
         "url":"https://github.com/Ariels875/Sistema-Matriculas",
         "github": "https://github.com/Ariels875/Sistema-Matriculas"
-      },
-      {
-        "name": "Librería",
-        "isActive": false,
-        "description": "Pagina de una base de datos conectada a una interfaz que muestra los libros disponibles y permite al admin editar desde la interfaz.",
-        "highlights": [
-          "En desarrollo",
-          "SQL"
-        ]
       },
       {
         "name": "App de dibujo",
@@ -117,7 +108,20 @@
           "JavaScript",
           "En desarrollo"
         ],
+        "url": "https://github.com/Ariels875/Draw-app",
+        "github": "https://github.com/Ariels875/Draw-app"
+      },
+      {
+        "name": "Librería",
+        "isActive": false,
+        "description": "Pagina de una base de datos conectada a una interfaz que muestra los libros disponibles y permite al admin editar desde la interfaz.",
+        "highlights": [
+          "En desarrollo",
+          "SQL"
+        ],
+        "url": "https://github.com/Ariels875",
         "github": "https://github.com/Ariels875"
+
       },
       {
         "name": "App de Acertijos",
@@ -125,7 +129,9 @@
         "highlights": [
           "JavaScript",
           "En desarrollo"
-        ]
+        ],
+        "url": "https://github.com/Ariels875",
+        "github": "https://github.com/Ariels875"
       }
     ]
   }
