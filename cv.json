@@ -73,9 +73,10 @@
         "description": "Un simple chat en tiempo real hecho con express, morgan y socket io.",
         "highlights": [
           "Node JS",
-          "En desarrollo"
+          "En Linea",
+          "En tiempo real"
         ],
-        "url": "https://github.com/Ariels875/Real-Time-Chat",
+        "url": "https://arielschat.onrender.com/t",
         "github": "https://github.com/Ariels875/Real-Time-Chat"
       },
       {
